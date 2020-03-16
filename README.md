@@ -1,3 +1,3 @@
 # prework-calculator
 
-![ScreenShot](file:///Users/carringtonbeard/Downloads/calculator.pdf)
+![calculator.pdf](https://github.com/Carringtonb/prework-calculator/files/4340084/calculator.pdf)
