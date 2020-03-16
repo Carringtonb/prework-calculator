@@ -4,7 +4,7 @@ namespace Prework_calculator
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Calculator!");
             Console.Write("Choose a method: + - / * \n");
@@ -16,7 +16,7 @@ namespace Prework_calculator
 
             float total = 0;
 
-            if (input == "add" || input == "+")
+            if (input == "addition" || input == "+")  // runs different methods based on user input
             {
                 total = addNumbers(num1, num2);
             }
@@ -27,12 +27,16 @@ namespace Prework_calculator
             else if (input == "multiply" || input == "*")
             {
                 total = multiplyNumbers(num1, num2);
-            }
+            }adimu
             else if (input == "divide" || input == "/")
             {
                 total = divideNumbers(num1, num2);
-            }
+            } else
+			{
+                Console.WriteLine("Please enter a proper input");
+			}
             Console.WriteLine("The sum is {0}", total);
+            Main();
         }
         public static int addNumbers(int num1, int num2)
         {
